@@ -1,0 +1,23 @@
+{
+  "batches": [
+    {
+      "policy": "collect",
+      "writes": [
+        {
+          "id": "a",
+          "key": "x",
+          "deps": [],
+          "deleted": false,
+          "value": 1
+        },
+        {
+          "id": "b",
+          "key": "x",
+          "deps": [],
+          "deleted": true,
+          "value": null
+        }
+      ]
+    }
+  ]
+}

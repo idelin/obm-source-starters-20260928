@@ -1,0 +1,33 @@
+{
+  "commands": [
+    {
+      "op": "child",
+      "id": "c",
+      "parent": "root"
+    },
+    {
+      "op": "enqueue",
+      "id": "j",
+      "handle": "c",
+      "actions": [
+        {
+          "op": "cancel",
+          "handle": "c",
+          "reason": "stop"
+        },
+        {
+          "op": "emit",
+          "value": "done"
+        }
+      ]
+    },
+    {
+      "op": "drain",
+      "handle": "root",
+      "limit": 2
+    },
+    {
+      "op": "inspect"
+    }
+  ]
+}

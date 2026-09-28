@@ -1,0 +1,30 @@
+{
+  "tests": [
+    "B1",
+    "B2"
+  ],
+  "statements": [
+    {
+      "id": "s",
+      "start": 2,
+      "end": 5
+    }
+  ],
+  "directives": [
+    {
+      "id": "d",
+      "start": 4,
+      "end": 4,
+      "selector": "all & !B2",
+      "budget": 1,
+      "priority": 2
+    }
+  ],
+  "findings": [
+    {
+      "id": "f",
+      "statement": "s",
+      "test": "B1"
+    }
+  ]
+}

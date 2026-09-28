@@ -1,0 +1,38 @@
+{
+  "functions": {
+    "f": {
+      "params": [
+        "x"
+      ],
+      "nodes": {},
+      "returns": [
+        {
+          "op": "ref",
+          "name": "x"
+        }
+      ],
+      "sinks": [
+        {
+          "id": "s",
+          "kind": "sql",
+          "value": {
+            "op": "ref",
+            "name": "x"
+          }
+        }
+      ]
+    }
+  },
+  "entries": [
+    {
+      "id": "entry",
+      "function": "f",
+      "args": [
+        {
+          "op": "source",
+          "id": "u"
+        }
+      ]
+    }
+  ]
+}

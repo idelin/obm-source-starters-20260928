@@ -1,0 +1,35 @@
+{
+  "threshold": 1,
+  "cooldown": 3,
+  "quota": 2,
+  "events": [
+    {
+      "op": "start",
+      "at": 0,
+      "id": "a",
+      "origin": "x"
+    },
+    {
+      "op": "finish",
+      "at": 1,
+      "id": "a",
+      "outcome": "failure"
+    },
+    {
+      "op": "start",
+      "at": 4,
+      "id": "b",
+      "origin": "x"
+    },
+    {
+      "op": "finish",
+      "at": 5,
+      "id": "b",
+      "outcome": "success"
+    },
+    {
+      "op": "inspect",
+      "at": 5
+    }
+  ]
+}

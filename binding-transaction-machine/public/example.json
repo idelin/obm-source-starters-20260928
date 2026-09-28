@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "commands": [
+    {
+      "op": "declare",
+      "name": "x",
+      "type": "int",
+      "value": {
+        "lit": 1
+      }
+    },
+    {
+      "op": "assign",
+      "targets": [
+        "x",
+        "x"
+      ],
+      "values": [
+        {
+          "lit": 2
+        },
+        {
+          "lit": "bad"
+        }
+      ]
+    },
+    {
+      "op": "read",
+      "names": [
+        "x"
+      ]
+    }
+  ]
+}

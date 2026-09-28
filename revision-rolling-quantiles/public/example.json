@@ -1,0 +1,27 @@
+{
+  "events": [
+    {
+      "id": "a",
+      "revision": 1,
+      "recorded": 1,
+      "time": 1,
+      "group": "g",
+      "value": 3,
+      "deleted": false
+    }
+  ],
+  "queries": [
+    {
+      "asof": 1,
+      "group": "g",
+      "width": 2,
+      "center": false,
+      "min_samples": 1,
+      "q": {
+        "num": 1,
+        "den": 2
+      },
+      "method": "linear"
+    }
+  ]
+}
